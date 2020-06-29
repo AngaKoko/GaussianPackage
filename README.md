@@ -1,8 +1,8 @@
 
 You'll need to create a few folders and files:
-* a setup.py file, which is required in order to use pip install
-* a folder called 'distributions', which is the name of the Python package
-* inside the 'distributions' folder, you'll need the Gaussiandistribution.py file, Generaldistribution.py and an __init__.py file.
+* a `setup.py` file, which is required in order to use `pip install`
+* a folder called '`distributions`', which is the name of the Python package
+* inside the '`distributions`' folder, you'll need the `Gaussiandistribution.py` file, `Generaldistribution.py` and an `__init__.py` file.
 
 Install Setup Tools for Python
 
@@ -35,10 +35,12 @@ Note: You can deactivate your virtual environment by typing:
 
 
 If everything is set up correctly, pip will install the distributions package into the workspace. You can then start the python interpreter from the terminal typing:
-python
+    
+    python
 
 Then within the Python interpreter, you can use the distributions package:
-from distributions import Gaussian
-gaussian_one = Gaussian(25, 2)
-gaussian_one.mean
-gaussian_one + gaussian_one
+
+    from distributions import Gaussian
+    gaussian_one = Gaussian(25, 2)
+    gaussian_one.mean
+    gaussian_one + gaussian_one
